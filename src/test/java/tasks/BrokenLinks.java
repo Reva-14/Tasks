@@ -14,6 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BrokenLinks {
 	public static void main(String[] args) throws IOException {
+		//updated
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
 //		options.addArguments("start-maximized");
